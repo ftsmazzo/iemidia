@@ -3,7 +3,7 @@ streamlit-webrtc
 pydub
 moviepy
 yt-dlp
-openai
+openai==0.28
 python-dotenv
 pandas
 plyer
