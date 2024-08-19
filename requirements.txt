@@ -1,7 +1,21 @@
+# Ferramentas de gerenciamento de pacotes e compilação
+setuptools>=41.0.1
+wheel
+
+# Bibliotecas principais
 numpy==1.21.0
 torch
 openai-whisper
 yt-dlp
 streamlit
 openai
+
+# Para manipulação de áudio, se necessário
 pydub
+
+# Dependência específica que pode causar problemas de compilação
+llvmlite==0.39.0
+
+# Atualize o pip para garantir compatibilidade
+pip>=21.0
+
