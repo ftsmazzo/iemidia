@@ -1,3 +1,11 @@
+import subprocess
+import sys
+
+# Tentar instalar o distutils se ele estiver faltando
+try:
+    import distutils
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "distutils"])
 import yt_dlp
 import streamlit as st
 import whisper
