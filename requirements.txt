@@ -1,0 +1,7 @@
+numpy==1.21.0
+torch
+openai-whisper
+yt-dlp
+streamlit
+openai
+pydub
